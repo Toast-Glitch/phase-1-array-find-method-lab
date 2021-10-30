@@ -2,9 +2,9 @@
 describe('superbowlWin(record)', function () {
   const record = [
     { year: "2018", result: "N/A"},
-    { year: "2017", result: "N/A"},
     { year: "2016", result: "N/A"},
     { year: "2015", result: "N/A"},
+    { year: "2017", result: "N/A"},
     { year: "2014", result: "N/A"},
     { year: "2013", result: "N/A"},
     { year: "2012", result: "N/A"},
