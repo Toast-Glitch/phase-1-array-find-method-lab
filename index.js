@@ -1,8 +1,5 @@
-//return the year of 'W' inside array
-
-function superbowlWin (Array) {
-     for (const record of Array) {
-          if (record.result === 'W') {
-               return record.year;}
-          }
-     }
+//return the winning year from the array
+function superbowlWin(Array) {
+     const win = Array.find(Object => Object.result === "W")
+     if (win != undefined) {return win.year} return undefined
+}
